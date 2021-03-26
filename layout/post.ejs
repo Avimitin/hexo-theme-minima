@@ -1,4 +1,10 @@
-  <h2><%- page.title %></h2>
+<img src=
+<% if (!page.thumbnail) { %>
+	"images/thumbnail.jpg"
+<% } else { %>
+	<%- page.thumbnail %>
+<% } %>
+/>
 
   <%- page.content%>
   <p><%- list_tags(page.tags, {class: 'classtest', show_count: false, style: false}) %> — <%- full_date(page.date, 'll') %></p>
