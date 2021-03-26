@@ -312,12 +312,29 @@ body.darkmode {
     text-align: right;
   }
 
-  #comments {
-    text-align: left;
-  }
+.post-tldr {
+	font-family: "Georgia", Serif;
+	line-height: 1.2em;
+	font-style: italic;
+}
 
-  #madewith {
-    text-align: left;
-  }
+#tldr-start {
+	font-weight: bold;
+	font-size: 1.2em;
+}
 
+.post-tn-alt {
+	position: relative;
+	top: -1em;
+	color: #a2a2a2;
+	border-bottom: 1px solid #c7c7c7;
+	padding-bottom: 2rem;
+	font-style: italic;
+	font-size: 1rem;
+}
+
+.post-title {
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
 }
