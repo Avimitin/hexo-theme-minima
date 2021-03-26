@@ -348,8 +348,44 @@ body.darkmode {
 	text-align: center;
 }
 
+.bloger-info {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	border-bottom: 1px solid #cfcfcf;
+	padding-bottom: 2rem;
+}
+
 .avatar {
 	border-radius: 50%;
-	width: 5em;
-	height: 5em;
+	width: 8em;
+	height: 8em;
+}
+
+.theme-info {
+	border-bottom: 1px solid #cfcfcf;
+	padding-bottom: 1.5rem;
+}
+
+.latest-blog-list {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-around;
+}
+
+.latest-blog {
+	margin 0 auto;
+	padding: 1rem 0;
+}
+
+.latest-blog-info {
+	font-family: monospace;
+	font-size: 1em;
+}
+
+.latest-blog-title {
+	letter-spacing: -1px;
+	font-size: 1.5em;
 }
