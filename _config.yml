@@ -3,11 +3,13 @@ title: "Avimitin's Blog"
 
 #main info
 #owner
-owner: "I am avimitin"
+owner: "I am Avimitin"
 email: avimitin@gmail.com
 info: "genior gopher"
 #description
 desc: "Welcome to my blog"
+#avatar
+avatar: "https://cdn.jsdelivr.net/gh/Avimitin/PicStorage/pic/Snipaste_2020-06-28_17-52-49.png"
 
 #menu
 menu:
@@ -19,7 +21,7 @@ max_post: 5
 
 # Colors use hex color without #
 # Theme color
-tcolor: 0FA0CE
+tcolor: D19826
 
 # Define path to user css
 #(could be also located outside of theme)
