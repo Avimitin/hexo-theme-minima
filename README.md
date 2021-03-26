@@ -1,3 +1,7 @@
+> This is a fork version, changes I make are listed below
+> - Added Mac like code block
+> - Added thumbnail photo at post header
+
 # Minima
 An undoubtedly simple and lightweight dark/light mode theme for Hexo.
 
