@@ -1,33 +1,32 @@
-<div class="row">
-	<div class="column">
+<div class="bloger-info">
+  <div>
 		<img class="avatar" src="<%= theme.avatar %>" />
 	</div>
-  <div class="column">
-    <!-- Main information, edit it on theme/_config.yml -->
+	<div class="text-info">
     <h2 class="mb-2"><%= theme.owner %></h2>
-    <p><%= theme.info %></p>
+    <p class="theme-info"><%= theme.info %></p>
     <p><%= theme.desc %></p>
   </div>
 </div>
 
-<h3>Recent Posts</h3>
+<h2 style="padding-top: 2em;">Latest</h2>
 
-<% site.posts.sort('date', 'desc').limit(theme.max_post).forEach(function(post){ %>
-<div class="row">
+<div class="latest-blog-list">
+	<% site.posts.sort('date', 'desc').limit(theme.max_post).forEach(function(post){ %>
+	<div class="latest-blog">
 
-  <div class="three columns left lit">
-    <p class="bottom"><%- full_date(post.date, 'll') %></p>
-  </div>
-  <div class="nine columns left mb-3">
-    <a href="<%- url_for(post.path) %>" >
-      <% if (post.title == "") { %>
-        no title
-      <% } else { %>
-        <%- post.title %>
-      <% } %>
-    </a>
-  </div>
+			<a class="latest-blog-title" href="<%- url_for(post.path) %>" >
+				<% if (post.title == "") { %>
+					no title
+				<% } else { %>
+					<%- post.title %>
+				<% } %>
+			</a>
+
+			<p class="latest-blog-info">// <%- full_date(post.date, 'll') %> by <%- config.author %></p>
+
+	</div>
+	<% }) %>
 </div>
-<% }) %>
 
-<h4> <a href="<%= config.root %>archives">All Posts</a></h4>
+<h4 style="padding-top: 1.5rem;"> <a href="<%= config.root %>archives">All Posts</a></h4>
