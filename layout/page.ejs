@@ -1,3 +1,7 @@
   <h2><%- page.title %></h2>
 
   <%- page.content%>
+
+	<% if (is_page() && page.type === 'friends') { %>
+		<%- partial('friends') %>
+	<%}%>

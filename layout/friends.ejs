@@ -1,0 +1,19 @@
+<h2 class="friend-title"><%= page.title %></h2>
+<div class="card-container">
+
+<% if (page.friends) {%>
+	<% page.friends.forEach(function(friend) { %>
+		<div class="card">
+			<img class="card-img" src="<%- friend.avatar %>" />
+			<p class="card-name"><%- friend.name %></p>
+			<p class="card-desc"><%- friend.desc %></p>
+			<button type="button" class="card-button">
+				<a href="<%- friend.link %>">
+					click!
+				</a>
+			</button>
+		</div>
+	<% }) %>
+<% } %>
+
+</div>
