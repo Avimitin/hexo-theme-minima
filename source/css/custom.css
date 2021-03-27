@@ -351,16 +351,21 @@ body.darkmode {
 .bloger-info {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	align-items: center;
 	border-bottom: 1px solid #cfcfcf;
 	padding-bottom: 2rem;
 }
 
+.text-info {
+	position: relative;
+	padding-left: 3vh;
+}
+
 .avatar {
 	border-radius: 50%;
-	width: 8em;
-	height: 8em;
+	width: auto;
+	height: auto;
 }
 
 .theme-info {
