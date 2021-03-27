@@ -381,7 +381,7 @@ body.darkmode {
 }
 
 .latest-blog {
-	margin 0 auto;
+	margin: 0.5vh 1vh;
 	padding: 1rem 0;
 }
 
