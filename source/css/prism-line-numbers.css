@@ -9,6 +9,7 @@ pre[class*="language-"].line-numbers > code {
 }
 
 .line-numbers .line-numbers-rows {
+	visibility: hidden;
 	position: absolute;
 	pointer-events: none;
 	top: -5px;
