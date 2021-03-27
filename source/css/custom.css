@@ -360,6 +360,8 @@ body.darkmode {
 .text-info {
 	position: relative;
 	padding-left: 3vh;
+	letter-spacing: -0.05vh;
+	font-family: serif;
 }
 
 .avatar {
