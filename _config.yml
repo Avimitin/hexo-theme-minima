@@ -14,7 +14,6 @@ avatar: "https://cdn.jsdelivr.net/gh/Avimitin/PicStorage/pic/Snipaste_2020-06-28
 #menu
 menu:
   Friends: /friends
-  About: /about
 
 #index/main page max show posts (in number)
 max_post: 5
