@@ -1,18 +1,5 @@
-<div class="bloger-info">
-  <div>
-		<img class="avatar" src="<%= theme.avatar %>" />
-	</div>
-	<div class="text-info">
-    <h2 class="mb-2"><%= theme.owner %></h2>
-    <p class="theme-info"><%= theme.info %></p>
-    <p><%= theme.desc %></p>
-  </div>
-</div>
-
-<h2 style="padding-top: 2em;">Latest</h2>
-
 <div class="latest-blog-list">
-	<% site.posts.sort('date', 'desc').limit(theme.max_post).forEach(function(post){ %>
+	<% site.posts.sort('date', 'desc').forEach(function(post){ %>
 	<div class="latest-blog">
 
 			<a class="latest-blog-title" href="<%- url_for(post.path) %>" >
@@ -28,5 +15,3 @@
 	</div>
 	<% }) %>
 </div>
-
-<h4 style="padding-top: 1.5rem;"> <a href="<%= config.root %>archives">All Posts</a></h4>
