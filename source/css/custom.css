@@ -31,6 +31,41 @@
 	font-display: swap; /* Add font-display */
 }
 
+@font-face {
+	font-family: "Noto Serif SC";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/NotoSerifSC-Regular.otf");
+}
+
+@font-face {
+	font-family: "Noto Serif SC";
+	font-style: normal;
+	font-weight: 600;
+	src: url("../fonts/NotoSerifSC-SemiBold.otf");
+}
+
+@font-face {
+	font-family: "Noto Serif SC";
+	font-style: bold;
+	font-weight: 700;
+	src: url("../fonts/NotoSerifSC-Bold.otf");
+}
+
+@font-face {
+	font-family: "Noto Serif SC";
+	font-style: normal;
+	font-weight: 900;
+	src: url("../fonts/NotoSerifSC-Black.otf"); 
+}
+
+@font-face {
+	font-family: "Ubuntu Mono";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/UbuntuMono-R.ttf"); 
+}
+
 html {
 	overflow: auto;
 }
