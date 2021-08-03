@@ -3,15 +3,25 @@
 	<div class="latest-blog">
 
 			<a class="latest-blog-title" href="<%- url_for(post.path) %>" >
-				<% if (post.title == "") { %>
+				<% if (!post.title) { %>
 					no title
 				<% } else { %>
 					<%- post.title %>
 				<% } %>
 			</a>
 
-			<p class="latest-blog-info">// <%- full_date(post.date, 'll') %> by <%- config.author %></p>
-
+			<p class="latest-blog-info">/*
+				<%- full_date(post.date, 'll') %>
+				by <%- post.author || config.author %>
+				<%- list_categories(post.categories, {
+													class: 'post-category',
+													show_count: false,
+													style: 'none',
+													transform(str) {
+														return str.toUpperCase();
+													}
+													}) %> */
+			</p>
 	</div>
 	<% }) %>
 </div>
