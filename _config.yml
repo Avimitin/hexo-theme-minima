@@ -6,6 +6,7 @@ menu:
   Friends: /friends
   About: /about
   RSS: /atom.xml
+  NoteBook: https://sh1marin.notion.site/Sh1marin-s-Notebook-7e713b594fa444d38de4b999b449b99a
 
 #index/main page max show posts (in number)
 max_post: 5
