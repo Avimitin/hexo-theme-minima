@@ -110,10 +110,9 @@ samp {
 }
 
 p code {
-	background-color: rgb(207, 207, 207);
-	padding: 0.3rem;
-	border-radius: 0.2rem;
-	border: 1px solid rgba(255, 255, 255, 0.2);
+	background-color: rgb(232, 234, 238);
+	padding: 0.15rem;
+	border-radius: 0.5rem;
 }
 
 /**
@@ -229,6 +228,30 @@ button:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
 	outline: 1px dotted ButtonText;
+}
+
+.darkmodeSwitch {
+  background-color: #464444;
+  border: 0;
+  padding: 1rem 0.5rem;
+  font-size: 3rem;
+  font-family: monospace;
+  box-shadow: 0px 5px 10px #BB892A;
+  transition: all .3s;
+  cursor: pointer;
+  border-radius: 5px;
+  border-bottom: 4px solid #606060;
+  line-height: 20px;
+}
+
+.darkmodeSwitch:hover{
+    box-shadow: 0px 15px 25px -5px #FFD78B;
+    transform: scale(1.03);
+}
+
+.darkmodeSwitch:active {
+    box-shadow: 0px 4px 8px #FFD78B;
+    transform: scale(.98);
 }
 
 /**
