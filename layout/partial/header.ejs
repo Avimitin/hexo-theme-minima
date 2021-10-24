@@ -10,14 +10,17 @@
         function setDarkMode(isDark) {
           var darkBtn = document.getElementById('darkBtn')
           var lightBtn = document.getElementById('lightBtn')
+          var codeBlocks = document.querySelectorAll("pre[class*='language-']")
           if (isDark) {
             lightBtn.style.display = "block"
             darkBtn.style.display = "none"
             localStorage.setItem('preferredTheme', 'dark');
+            codeBlocks.forEach((element) => { element.style.background = "#1A1B26"})
           } else {
             lightBtn.style.display = "none"
             darkBtn.style.display = "block"
             localStorage.removeItem('preferredTheme');
+            codeBlocks.forEach((element) => { element.style.background = "#373D55"})
           }
           document.body.classList.toggle("darkmode");
         }
