@@ -418,3 +418,10 @@ body.darkmode .card {
 	border: 1px solid rgba(255, 255, 255, 0.1);
 	background-color: #323232;
 }
+
+.footer-text {
+  color: #A6A6A6;
+  font-family: sans;
+  font-size: 10px;
+  border-top: 0.5px solid #D3DAE1;
+}
