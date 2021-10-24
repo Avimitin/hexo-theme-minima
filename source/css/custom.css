@@ -1,66 +1,9 @@
-/* dm-serif-display-regular - latin */
-@font-face {
-	font-family: "DM Serif Display";
-	font-style: normal;
-	font-weight: 400;
-	src: url("../fonts/dm-serif-display-v4-latin-regular.eot"); /* IE9 Compat Modes */
-	src: local("DM Serif Display Regular"), local("DMSerifDisplay-Regular"),
-		url("../fonts/dm-serif-display-v4-latin-regular.eot?#iefix") format("embedded-opentype"),
-		/* IE6-IE8 */ url("../fonts/dm-serif-display-v4-latin-regular.woff2") format("woff2"),
-		/* Super Modern Browsers */ url("../fonts/dm-serif-display-v4-latin-regular.woff")
-			format("woff"),
-		/* Modern Browsers */ url("../fonts/dm-serif-display-v4-latin-regular.ttf") format("truetype"),
-		/* Safari, Android, iOS */ url("../fonts/dm-serif-display-v4-latin-regular.svg#DMSerifDisplay")
-			format("svg"); /* Legacy iOS */
-
-	font-display: swap; /* Add font-display */
-}
-
-/* inter-regular - latin */
-@font-face {
-	font-family: "Inter";
-	font-style: normal;
-	font-weight: 400;
-	src: url("../fonts/inter-v2-latin-regular.eot"); /* IE9 Compat Modes */
-	src: local(""), url("../fonts/inter-v2-latin-regular.eot?#iefix") format("embedded-opentype"),
-		/* IE6-IE8 */ url("../fonts/inter-v2-latin-regular.woff2") format("woff2"),
-		/* Super Modern Browsers */ url("../fonts/inter-v2-latin-regular.woff") format("woff"),
-		/* Modern Browsers */ url("../fonts/inter-v2-latin-regular.ttf") format("truetype"),
-		/* Safari, Android, iOS */ url("../fonts/inter-v2-latin-regular.svg#Inter") format("svg"); /* Legacy iOS */
-
-	font-display: swap; /* Add font-display */
-}
-
 @font-face {
 	font-family: "Noto Serif SC";
 	font-style: normal;
 	font-weight: 400;
 	font-display: swap;
 	src: url("../fonts/NotoSerifSC-Regular.otf");
-}
-
-@font-face {
-	font-family: "Noto Serif SC";
-	font-style: normal;
-	font-weight: 600;
-	font-display: swap;
-	src: url("../fonts/NotoSerifSC-SemiBold.otf");
-}
-
-@font-face {
-	font-family: "Noto Serif SC";
-	font-style: bold;
-	font-weight: 700;
-	font-display: swap;
-	src: url("../fonts/NotoSerifSC-Bold.otf");
-}
-
-@font-face {
-	font-family: "Noto Serif SC";
-	font-style: normal;
-	font-weight: 900;
-	font-display: swap;
-	src: url("../fonts/NotoSerifSC-Black.otf"); 
 }
 
 @font-face {
