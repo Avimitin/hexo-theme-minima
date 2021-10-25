@@ -3,7 +3,6 @@ code[class*="language-"] {
 	color: #d4d4d4;
 	font-size: 1em;
 	left: 0em;
-	top: 10px;
 	font-family: "Ubuntu Mono", monospace;
 	direction: ltr;
 	text-align: left;
@@ -36,27 +35,23 @@ code[class*="language-"] *::selection {
 
 pre[class*="language-"] {
 	padding: 1em;
-	overflow: auto;
-	background: #111111;
+	overflow: hidden;
+	background: #404546;
 }
 
-pre::before {
-	content: " ";
-	position: absolute;
-	border-radius: 50%;
-	background: #fc625d;
-	width: 12px;
-	height: 12px;
-	left: 12px;
-	top: 10px;
-	-webkit-box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
-	box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
-	z-index: 1;
+body.darkmode pre[class*="language-"] {
+	background: #1A1B26;
 }
 
 pre {
 	border: 1px solid rgba(255, 255, 255, 0.25);
 	border-radius: 5px;
+  transition: all .3s;
+}
+
+pre:hover, pre:focus {
+  width: min-content;
+  transform: scale(1.15)
 }
 
 :not(pre) > code[class*="language-"] {
