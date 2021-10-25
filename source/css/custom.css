@@ -376,8 +376,29 @@ body.darkmode {
 }
 
 .latest-blog-title {
+  text-decoration: none;
 	letter-spacing: -1px;
-	font-size: 1.5em;
+	font-size: 1.4em;
+  box-decoration-break: clone;
+}
+
+.latest-blog-title:hover, .latest-blog-title:focus{
+  padding: 0.3rem 0.56rem;
+  background: transparent;
+  background-color: #000;
+  color: #FFF;
+}
+
+.darkmode .latest-blog-title {
+  background-image: none;
+  text-decoration: solid;
+}
+
+.darkmode .latest-blog-title:hover, .darkmode .latest-blog-title:focus {
+  padding: 0.3rem 0.56rem;
+  background: transparent;
+  background-color: #FFD788;
+  color: #000;
 }
 
 .card-container {
