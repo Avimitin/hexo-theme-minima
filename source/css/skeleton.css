@@ -292,14 +292,12 @@ p {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a:not(.icon) {
 	color: inherit;
-	background-size: 100% 200%;
-	transition: background-position 0.2s ease-in-out;
 }
 
 a:hover:not(.icon),
 a:focus:not(.icon) {
-	background-position: 0 100%;
-	color: #fff;
+  font-size: 1.8em;
+  font-weight: 500;
 }
 
 /* a:hover {
