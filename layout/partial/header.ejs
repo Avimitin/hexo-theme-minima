@@ -1,26 +1,23 @@
 <div class="row">
   <div class="two columns" style="max-width: 50px">
     <h1 class="mt-2 mode">
-      <button onclick=setDarkMode(true) id="darkBtn" class="darkmodeSwitch"><%= theme.switch_dark %></button>
-      <button onclick=setDarkMode(false) id="lightBtn" class="hidden darkmodeSwitch"><%= theme.switch_light %></button>
-      <script >
+      <div onclick=setDarkMode(true) id="darkBtn" class="darkmodeSwitch"><%= theme.switch_light %></div>
+      <div onclick=setDarkMode(false) id="lightBtn" class="hidden darkmodeSwitch"><%= theme.switch_dark %></div>
+      <script defer>
         if (localStorage.getItem('preferredTheme') == 'dark') {
           setDarkMode(true)
         }
         function setDarkMode(isDark) {
           var darkBtn = document.getElementById('darkBtn')
           var lightBtn = document.getElementById('lightBtn')
-          var codeBlocks = document.querySelectorAll("pre[class*='language-']")
           if (isDark) {
             lightBtn.style.display = "block"
             darkBtn.style.display = "none"
             localStorage.setItem('preferredTheme', 'dark');
-            codeBlocks.forEach((element) => { element.style.background = "#1A1B26"})
           } else {
             lightBtn.style.display = "none"
             darkBtn.style.display = "block"
             localStorage.removeItem('preferredTheme');
-            codeBlocks.forEach((element) => { element.style.background = "#373D55"})
           }
           document.body.classList.toggle("darkmode");
         }
