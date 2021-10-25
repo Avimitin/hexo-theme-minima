@@ -1,11 +1,21 @@
-> This is a fork version, changes I make are listed below
-> - Added Mac like code block
+# My modification
+
+This is a fork version, changes I make are listed below
+
+> - Added night mode for code block
+> - Delete instruction at the index
+> - Scale the link
+> - Reverse the link background when hover
+> - Floating night mode button
 > - Added thumbnail photo at post header
 > - Added friends link support
 > - Added about part avatar support
 > - Modified some index page style
 
+https://user-images.githubusercontent.com/30021675/138647257-34702f38-1f84-4c73-9b65-ae277fdd9671.mp4
+
 # Minima
+
 An undoubtedly simple and lightweight dark/light mode theme for Hexo.
 
 ![Minima preview, device image by Freepik](https://adisaktijrs.github.io/2020/10/11/Hexo-Minima-Theme-v1-0-Officially-Released/minima.jpg)
