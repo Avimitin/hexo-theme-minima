@@ -296,8 +296,7 @@ a:not(.icon) {
 
 a:hover:not(.icon),
 a:focus:not(.icon) {
-  font-size: 1.8em;
-  font-weight: 500;
+  text-decoration: underline;
 }
 
 /* a:hover {

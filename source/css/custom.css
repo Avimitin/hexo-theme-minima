@@ -387,6 +387,8 @@ body.darkmode {
   background: transparent;
   background-color: #000;
   color: #FFF;
+  font-size: 1.8em;
+  font-weight: 500;
 }
 
 .darkmode .latest-blog-title {
