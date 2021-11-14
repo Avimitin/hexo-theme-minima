@@ -24,6 +24,11 @@ img {
 	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
 	margin-bottom: 1%;
+  transition: all .3s;
+}
+
+img:hover, img:focus {
+  transform: scale(1.25);
 }
 
 @media (min-width: 550px) {
