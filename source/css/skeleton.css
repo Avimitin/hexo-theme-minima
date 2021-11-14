@@ -528,14 +528,27 @@ td {
 	border-bottom: 1px solid #e1e1e1;
 }
 
-th:first-child,
-td:first-child {
-	padding-left: 0;
+th {
+  position: sticky;
 }
 
-th:last-child,
-td:last-child {
-	padding-right: 0;
+tbody tr:nth-child(2n) {
+  background-color: #eee;
+}
+
+body.darkmode tbody tr:nth-child(2n) {
+    background-color: #555;
+}
+
+thead {
+  background-color: #000;
+  color: white;
+}
+
+table {
+  font-family: sans;
+  border-collapse: collapse;
+  width: max-content;
 }
 
 /* Spacing
