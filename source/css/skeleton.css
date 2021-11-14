@@ -296,7 +296,8 @@ a:not(.icon) {
 
 a:hover:not(.icon),
 a:focus:not(.icon) {
-  text-decoration: underline;
+  text-decoration-color: #FFD700;
+  text-shadow: 1px 3px 10px #f9c37e78;
 }
 
 /* a:hover {
